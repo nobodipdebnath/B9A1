@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(resources/banner.png);
+    background-position: center;
+    border-radius: 12px;
+    background-size: cover;
+    margin: 50px 80px;
+}
+.banner-text{
+    text-align: center;
+    padding-top: 177px;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    padding-bottom: 180px;
+}
+.off{
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.off-title{
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.off-description{
+    font-size: 48px;
+    color: #070211;
+    text-align: center;
+    font-weight: 700;
+}
+.off-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+.section-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(resources/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 80px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+}
+.section-3 > div{
+    padding: 60px 0px;
+}
+.party-title{
+    color: white;
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+.party-description{
+    font-size: 18px;
+    color: #FFFFFFCC;
+    margin-bottom: 48px;
+}
+.button-1{
+    padding: 10px 20px;
+    color: white;
+    background: #FF0000;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-4{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 100px 80px;
+    padding: 100px 0px;
+
+}
+.place-title{
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.place-description{
+    color:#070211;
+}
+.section-4-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+.button-2{
+    padding: 20px 40px;
+    color: white;
+    background: #FF0000;
+    border-radius: 12px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+}
+.section-5{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+    margin-bottom: 50px;
+}
+.section-5-title-1{
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.section-5-description-1{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.section-5-content-1{
+    font-size: 20px;
+    color: #07021199;
+}
+.section-5-image{
+    padding: 20px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.section-6-text{
+    font-size: 24px;
+    color: #070211;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.section-6-title{
+    font-size: 72px;
+    font-weight: 800;
+    color: #FF0000;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.section-6-description{
+    font-size: 20px;
+    color: #07021199;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sale{
+    color: #070211;
+}
+.section-6{
+    margin: 0px 80px;
+    margin-bottom: 50px;
+    /* background: url(resources/Rectangle\ 2.png);
+    background-size: 200px;/ */
+    /* background: url(resources/banner.png);
+    background-position: center;
+    background-size: cover; */
+}
+.section-6 > div{
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+.main-img{
+    position: relative;
+}
+.other-img{
+    position: absolute;
+    top: 50px;
+    left: -150px;
+}
+.last-img{
+    position: absolute;
+    top: 3950px;
+    right: 106.5px;
+}
+.first-image{
+    opacity: 1000;
+    
+}
+.section-7{
+    margin: 0px 80px;
+}
+.section-7-text{
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.section-7-title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.section-7-description{
+    font-size: 20px;
+    color: #07021199;
+    margin-bottom: 48px;
+}
+.section-7-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.section-7-image img{
+    height: auto;
+    width: 100%;
+}
+.section-8{
+    background:  rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin: 0px 80px;
+    margin-bottom: 50px;
+}
+.container{
+    padding: 50px 0px;
+}
+.section-8-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section-8-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.section-8-description{
+    font-size: 20px;
+    text-align: center;
+    color: #07021199;
+    margin-bottom: 40px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.input-1{
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    padding: 20px 150px;
+}
+.input-2{
+    padding: 18px 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: px;
+}
+.footer{
+    background: #070211;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-2-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.footer-text{
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+.footer-div-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    padding-top: 80px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    color: #070211;
+}
